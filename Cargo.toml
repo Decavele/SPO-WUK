@@ -1,7 +1,10 @@
 [package]
 name = "SPO-WUK"
 version = "0.1.0"
-authors = ["Jan Decavele <jandecavele@gmail.com>"]
+authors = [
+    "Jan Decavele",
+    "Thomas Decavele",
+]
 edition = "2018"
 
 [[bin]]
