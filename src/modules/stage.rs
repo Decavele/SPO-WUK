@@ -10,7 +10,7 @@ use glutin_window::GlutinWindow as Window;
 use opengl_graphics::{GlGraphics, OpenGL};
 
 
-mod {Actor};
+
 
 pub struct ViewPort {
     pub   height: u64,

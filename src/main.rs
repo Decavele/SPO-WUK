@@ -25,11 +25,11 @@ fn main() {
         "SPO-WUK",
         [viewport.width, viewport.height],
     )
-        .opengl(opengl)
-        .fullscreen(true)
-        .exit_on_esc(true)
-        .build()
-        .unwrap();
+    .opengl(opengl)
+    .fullscreen(true)
+    .exit_on_esc(true)
+    .build()
+    .unwrap();
 
     // Create a new game and run it.
     let mut stage = modules::stage::Stage {
